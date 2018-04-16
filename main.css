@@ -15,28 +15,28 @@ h1, h2{
   color: white;
   text-align: center;
 }
-a{
-  text-decoration: none;
-  color: white;
-}
-
 button{
+  -webkit-appearance:none;
+  text-decoration: none;
   position: relative;
   margin: 0;
   padding: 0;
   background:linear-gradient(#D81B60, #C62828);
   height: 40px;
   width: 100px;
-  top: 30px;
   border-radius: 3px;
   border-style: none;
+  color: white;
+  cursor: pointer;
 }
+button:focus{outline: 0;}
 h1{
   font-size: 30px;
 }
 
 h2{
   font-size: 14px;
+  color: yellow;
 }
 
 h3{
